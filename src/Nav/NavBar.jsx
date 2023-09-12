@@ -1,14 +1,13 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import logo from "../Components/imgs/meat.png";
 const NavBar = () => {
   return (
     <div>
       <div className="nav">
-        <Link to={"/"} >
-        <img
-          src="https://www.licious.in/image/rebranding/svg/licious-logo.svg"
-          alt=""
-        /></Link>
+        <Link to={"/"}>
+          <img  src={logo} alt="" />
+        </Link>
 
         <div class="dropdown">
           <button
@@ -37,23 +36,24 @@ const NavBar = () => {
               </a>
             </li>
           </ul>
-        
         </div>
 
         <div>
           <span>
-            <input placeholder="Search For Any Delicious Product  " type="text" />
+            <input
+              placeholder="Search For Any Delicious Product  "
+              type="text"
+            />
           </span>
         </div>
-        <div className="nav1" >
-          <Link  className="lInk" to={"/"}>
-            <span>
-              Categories</span>
+        <div className="nav1">
+          <Link className="lInk" to={"/"}>
+            <span>Categories</span>
           </Link>
           <Link className="lInk" to={"/Login"}>
             <span> login</span>
           </Link>
-          <Link  className="lInk" to={"/Cart"} >
+          <Link className="lInk" to={"/Cart"}>
             <span> Cart</span>
           </Link>
         </div>

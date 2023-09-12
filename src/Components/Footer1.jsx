@@ -1,13 +1,10 @@
 import React from "react";
-
+import logo from "../Components/imgs/meat.png";
 const Footer1 = () => {
   return (
     <div className="footer1main">
       <div className="licimgdiv">
-        <img
-          src="https://www.licious.in/image/rebranding/svg/licious-logo.svg"
-          alt=""
-        />
+        <img src={logo} alt="" />
         <div className="licbrake"> </div>
       </div>
       <div className="footermain1">
@@ -77,9 +74,9 @@ const Footer1 = () => {
             src="https://www.licious.in/image/rebranding/png/3-dsecure.png"
             alt=""
           />
-          <div className="secudiv" >
-          <h6>HAVE SECURITY CONCERN? </h6>
-          <span>Mail us to: security@licious.com</span>
+          <div className="secudiv">
+            <h6>HAVE SECURITY CONCERN? </h6>
+            <span>Mail us to: security@licious.com</span>
           </div>
         </div>
       </div>
