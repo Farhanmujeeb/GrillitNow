@@ -9,7 +9,7 @@ const Footer1 = () => {
       </div>
       <div className="footermain1">
         <div className="footerpart1">
-          <h7>EXPERIENCE LICIOUS APP ON MOBILE</h7>
+          <h7>EXPERIENCE GRILLITNOW APP ON MOBILE</h7>
           <div className="footimgdiv">
             <img
               src="https://www.licious.in/image/rebranding/png/app-store-homepage.png"
